@@ -9,6 +9,8 @@ class MainTheme {
         scaffoldBackgroundColor: Color.fromRGBO(241, 238, 252, 1.0),
         buttonTheme: ButtonThemeData(
             textTheme: ButtonTextTheme.primary,
+            buttonColor: Color.fromRGBO(121, 102, 255, 1.0),
+            height: 40.0,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0))),
         fontFamily: 'Nunito',

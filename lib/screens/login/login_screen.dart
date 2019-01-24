@@ -14,7 +14,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Text(
                 "Let's get started",
@@ -36,9 +36,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   Container(
                     child: Expanded(
                         child: Container(
-                      padding: EdgeInsets.only(left: 16.0, right: 16.0),
+                      padding: EdgeInsets.all(16.0),
                       child: RaisedButton(
-                        child: Text("Create account"),
+                        child: Text("Create Account"),
                         onPressed: () => {},
                       ),
                     )),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './screens/login/login_screen.dart';
 import 'theme/main_theme.dart';
+import 'package:personal_finance/routes/routes.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,6 +23,9 @@ class MyApp extends StatelessWidget {
       // is not restarted.
       // primarySwatch: Colors.blue,
       //),
+      onGenerateRoute: (RouteSettings settings) {
+        return AppRoutes.routeSettings(settings);
+      },
       theme: MainTheme.getMainTheme(),
       home: Container(
         padding: EdgeInsets.all(12.0),
