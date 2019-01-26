@@ -39,7 +39,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       padding: EdgeInsets.all(16.0),
                       child: RaisedButton(
                         child: Text("Create Account"),
-                        onPressed: () => {},
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/registration');
+                        },
                       ),
                     )),
                   )
