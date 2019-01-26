@@ -18,7 +18,7 @@ class MainTheme {
             body1: TextStyle(fontSize: 16.0, letterSpacing: 1.0),
             button: TextStyle(
                 fontSize: 16.0,
-                letterSpacing: 1.0,
+                letterSpacing: 2.0,
                 fontWeight: FontWeight.bold)));
   }
 }

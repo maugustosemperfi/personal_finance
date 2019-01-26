@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'slide_right_route.dart';
 import 'package:personal_finance/screens/login/login_screen.dart';
 import 'package:personal_finance/screens/register/registration_screen.dart';
+import 'package:personal_finance/screens/verification/verification_screen.dart';
 
 class AppRoutes {
   static routeSettings(RouteSettings routeSettings) {
@@ -11,6 +12,10 @@ class AppRoutes {
 
     if (routeSettings.name == '/registration') {
       return SlideRightRoute(widget: RegistrationScreen());
+    }
+
+    if (routeSettings.name == '/verification') {
+      return SlideRightRoute(widget: VerificationScreen());
     }
   }
 }

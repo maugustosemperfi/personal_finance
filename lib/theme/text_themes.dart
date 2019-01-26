@@ -10,4 +10,12 @@ class TextThemes {
   static getTitleStyle() {
     return TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold);
   }
+
+  static getPrimaryStyleBold(BuildContext context) {
+    return TextStyle(fontWeight: FontWeight.bold, color: Theme.of(context).primaryColor);
+  }
+
+  static getPrimaryStyle(BuildContext context) {
+    return TextStyle(color: Theme.of(context).primaryColor);
+  }
 }

@@ -51,21 +51,23 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         ),
                       ),
                       Container(
-                          padding: EdgeInsets.all(24.0),
-                          child: Row(
-                            children: <Widget>[
-                              Container(
-                                child: Expanded(
-                                  child: RaisedButton(
-                                    child: Text("Continue"),
-                                    onPressed: () {
-                                      Navigator.pushNamed(context, '/verification');
-                                    },
-                                  ),
+                        padding: EdgeInsets.all(24.0),
+                        child: Row(
+                          children: <Widget>[
+                            Container(
+                              child: Expanded(
+                                child: RaisedButton(
+                                  child: Text("Continue"),
+                                  onPressed: () {
+                                    Navigator.pushNamed(
+                                        context, '/verification');
+                                  },
                                 ),
-                              )
-                            ],
-                          ))
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),
