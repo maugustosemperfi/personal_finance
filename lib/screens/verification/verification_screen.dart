@@ -15,7 +15,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,
-          title: Text("Step 2/6"),
+          title: Text("Step 2/3"),
           centerTitle: true,
           iconTheme: IconThemes.getAppBarPrimary(context),
           textTheme: TextThemes.getAppBarPrimary(context),
@@ -86,7 +86,9 @@ class _VerificationScreenState extends State<VerificationScreen> {
                                 Expanded(
                                   child: RaisedButton(
                                     child: Text("Continue"),
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      Navigator.pushNamed(context, '/confirmation');
+                                    },
                                   ),
                                 ),
                               ],

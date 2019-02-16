@@ -14,7 +14,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,
-          title: Text("Step 1/6"),
+          title: Text("Step 1/3"),
           centerTitle: true,
           iconTheme: IconThemes.getAppBarPrimary(context),
           textTheme: TextThemes.getAppBarPrimary(context),

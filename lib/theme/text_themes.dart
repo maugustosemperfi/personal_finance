@@ -8,7 +8,7 @@ class TextThemes {
   }
 
   static getTitleStyle() {
-    return TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold);
+    return TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold);  
   }
 
   static getPrimaryStyleBold(BuildContext context) {
